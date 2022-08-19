@@ -286,6 +286,7 @@ margin-left: 130px;
 }
 /* RDW */
 @media screen and (max-width:376px){
+	
 	.container {
 			width: 100px;
 			display: grid;
@@ -297,14 +298,142 @@ margin-left: 130px;
 				"section";
 	}
 	.container nav{
-		background-size: 950px 500px;
+		width: 580px;
+		background-size: 780px 500px;
+		
 	}
-	
-	.container nav .flex-containner {
-		display: grid;
-		grid-template-columns: 2fr 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr;
-		grid-template-areas:
-			"paragraphe_container paragraphe_container div_container"
-
+	.container nav h1{
+		font-size: 20px;
+		text-align: center;
+		position: relative;
+		left: 120px;
 	}
+	.container nav .i{
+		position: relative;
+		right: 230px;
+		bottom: 30px;
+		font-size: 10px;
+		
+	}
+	.container main{
+		position: relative;
+		bottom: 90px;
+	}
+	.title-main{
+		text-align: center;
+		position: relative;
+		left: 40px;
+	}
+	.paragraphe-main{
+		text-align: center;
+		position: relative;
+		left: 120px;
+		font-size: 30px;
+	}
+	/* .container section{
+		width: 330px;
+		background-size: 380px 400px;
+	} */
+	.container-second nav{
+		width: 350px;
+		background-size: 380px 400px;
+		position: relative;
+		bottom: 200px;
+		right: 10px;
+	}
+	.container-second main{
+		position: relative;
+		right: 650px;
+		top: 200px;
+		text-align: center;
+		height: 200px;
+		width: 360px;
+	}
+	.container-second main .title-main{
+		font-size: 15px;
+		text-align: center;
+		margin-right: 50px;
+	}
+	.container-second main .paragraphe-main{
+			font-size: 15px;
+			text-align: center;
+			width: 150px;
+			
+	}
+	.section{
+		background-size: 350px 350px;
+		background-repeat: no-repeat;
+	}
+	.empty-title-section,.paragraphe-empty-section{
+		font-size: 15px;
+		text-align: center;
+		position: relative;
+		right: 100px;
+		bottom: 100px;
+	}
+	.paragraphe-empty-section{
+		position: relative;
+			right: 150px;
+	}
+	.section2{
+		background-size: 350px 350px;
+		background-repeat: no-repeat;
+		position: relative;
+		top: 350px;
+		right: 500px;
+	}
+	.container-third nav{
+		display: flex;
+		flex-direction: column;	
+	}
+	.container-third nav h1{
+			position: relative;
+			top: 240px;
+		}
+	.third-first-div,.third-second-div,.third-third-div{
+		position: relative;
+		top: 225px;
+		height: 180px;
+		font-size: 10px;
+	}
+	.paragraphe-third-div{
+		position:relative;
+		right: 35px;
+	}
+	.container-third main{
+		display: flex;
+		flex-direction: column;
+	}
+	/* .container-third main section{
+		position: relative;
+		top: 400px;
+	} */
+	.container-third main, .section2,.section3,.section4{
+		position: relative;
+		top: 190px;
+		
+	}
+	.para{
+		position: relative;
+		bottom: 80px;
+	}
+	.section5{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		position: relative;
+		top: 220px;
+	}
+	.paragraphe_container{
+		position: relative;
+		right: 480px;
+	}
+	.div_container-third{
+		position: relative;
+		right: 200px;
+	}
+	.div_container-third-icon{
+		position: relative;
+		right: 200px;
+	}
+}
